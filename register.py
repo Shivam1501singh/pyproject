@@ -4,7 +4,11 @@ from PIL import Image,ImageTk
 from tkinter import messagebox
 import mysql.connector
 
-
+# comments started
+def fact(n):
+     if n==0:
+          return 1
+     return n*fact(n-1)
 
 
 class register:
